@@ -4,7 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Ana Modas | Moda para toda a família em Cerquilho - SP</title>
-<meta name="description" content="Ana Modas em Cerquilho-SP: moda feminina, masculina e infantil das melhores marcas. Malwee, Kyly, Ogochi, Mommy, Siri Kids, Enfim, Luneli e Alakazoo. Peça pelo WhatsApp!">
+<meta name="description" content="Ana Modas em Cerquilho-SP: moda feminina, masculina e infantil. Malwee, Kyly, Ogochi, Momi, Siri Kids, Enfim, Lunelli e Alakazoo. Consulte pelo WhatsApp!">
+<meta name="theme-color" content="#faf6ef">
 
 <!-- Open Graph -->
 <meta property="og:title" content="Ana Modas | Moda para toda a família">
@@ -15,18 +16,19 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="css/style.css?v=5">
+<link rel="stylesheet" href="css/style.css?v=6">
 </head>
 <body>
+<a href="#conteudo" class="skip-link">Pular para o conteúdo</a>
 
 <!-- HEADER -->
 <header class="header" id="header">
   <div class="container header__inner">
     <a href="#top" class="logo">
-      <img src="assets/logo.png" alt="Ana Modas" class="logo__img">
+      <img src="assets/logo.png" alt="Ana Modas — início" class="logo__img" width="2400" height="871">
     </a>
 
-    <nav class="nav" id="nav">
+    <nav class="nav" id="nav" aria-label="Navegação principal">
       <a href="#sobre">Sobre</a>
       <a href="#marcas">Marcas</a>
       <a href="uniformes.html">Uniformes</a>
@@ -34,50 +36,48 @@
       <a href="#contato">Contato</a>
     </nav>
 
-    <a href="https://wa.me/551533845087?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais." class="btn btn--whatsapp header__cta" target="_blank" rel="noopener">
-      <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M17.6 6.3A8.9 8.9 0 0 0 12 4a8.8 8.8 0 0 0-8.8 8.8c0 1.6.4 3.1 1.2 4.4L3 21l3.9-1.3a8.8 8.8 0 0 0 5.1 1.6h.1A8.8 8.8 0 0 0 20 12.8a8.7 8.7 0 0 0-2.4-6.5Z" opacity="0"/><path d="M12.04 3.9a8.9 8.9 0 0 0-7.5 13.7L3.5 21l3.5-1a8.9 8.9 0 1 0 5-16.1Zm5.2 12.8c-.2.6-1.3 1.2-1.8 1.3-.5.1-1 .1-1.7-.1-.4-.1-1-.3-1.6-.6-2.9-1.3-4.8-4.2-4.9-4.4-.1-.2-1.2-1.6-1.2-3s.7-2.1 1-2.4c.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .6.5.2.6.8 2 .9 2.1.1.2.1.4 0 .6-.1.2-.2.4-.4.6-.2.2-.4.5-.5.6-.2.2-.4.4-.2.8.2.4.9 1.5 1.9 2.4 1.3 1.2 2.4 1.5 2.8 1.7.4.2.6.2.8-.1.2-.2.8-1 1.1-1.3.3-.3.5-.2.8-.1.3.1 2 1 2.4 1.1.4.2.6.3.7.4.1.3.1.9-.1 1.5Z"/></svg>
+    <a href="https://wa.me/551533845087?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais." class="btn btn--whatsapp header__cta" aria-label="Falar no WhatsApp" target="_blank" rel="noopener">
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M17.6 6.3A8.9 8.9 0 0 0 12 4a8.8 8.8 0 0 0-8.8 8.8c0 1.6.4 3.1 1.2 4.4L3 21l3.9-1.3a8.8 8.8 0 0 0 5.1 1.6h.1A8.8 8.8 0 0 0 20 12.8a8.7 8.7 0 0 0-2.4-6.5Z" opacity="0"/><path d="M12.04 3.9a8.9 8.9 0 0 0-7.5 13.7L3.5 21l3.5-1a8.9 8.9 0 1 0 5-16.1Zm5.2 12.8c-.2.6-1.3 1.2-1.8 1.3-.5.1-1 .1-1.7-.1-.4-.1-1-.3-1.6-.6-2.9-1.3-4.8-4.2-4.9-4.4-.1-.2-1.2-1.6-1.2-3s.7-2.1 1-2.4c.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .6.5.2.6.8 2 .9 2.1.1.2.1.4 0 .6-.1.2-.2.4-.4.6-.2.2-.4.5-.5.6-.2.2-.4.4-.2.8.2.4.9 1.5 1.9 2.4 1.3 1.2 2.4 1.5 2.8 1.7.4.2.6.2.8-.1.2-.2.8-1 1.1-1.3.3-.3.5-.2.8-.1.3.1 2 1 2.4 1.1.4.2.6.3.7.4.1.3.1.9-.1 1.5Z"/></svg>
       <span>WhatsApp</span>
     </a>
 
-    <button class="nav-toggle" id="navToggle" aria-label="Abrir menu">
+    <button class="nav-toggle" id="navToggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav" hidden>
       <span></span><span></span><span></span>
     </button>
   </div>
 </header>
 
 <!-- HERO -->
-<section class="hero" id="top">
+<main id="conteudo" tabindex="-1">
+<section class="hero hero--home" id="top" aria-labelledby="hero-title">
   <div class="container hero__inner">
-    <p class="hero__eyebrow">Cerquilho - SP</p>
-    <h1 class="hero__title">O melhor da moda<br>para <em>toda a família</em></h1>
+    <div class="hero__copy">
+    <p class="hero__eyebrow">Da nossa loja, para a sua família · Cerquilho, SP</p>
+    <h1 class="hero__title" id="hero-title">A moda da sua família <em>mora aqui.</em></h1>
     <p class="hero__text">
-      Roupas femininas, masculinas e infantis das marcas que você confia,
-      com atendimento nota mil e preço justo. Vem conhecer a Ana Modas!
+      Do look do dia a dia ao uniforme da escola. Encontre suas marcas favoritas
+      e conte com a gente para escolher.
     </p>
     <div class="hero__actions">
       <a href="https://wa.me/551533845087?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais." class="btn btn--whatsapp" target="_blank" rel="noopener">Falar no WhatsApp</a>
-      <a href="https://www.instagram.com/anamodascerquilho/" class="btn btn--ghost" target="_blank" rel="noopener">Ver no Instagram</a>
+      <a href="uniformes.html" class="btn btn--ghost">Ver uniformes <span aria-hidden="true">↗</span></a>
     </div>
-    <p class="hero__trigger">Resposta rápida pelo WhatsApp · sem compromisso</p>
-
-    <div class="hero__badges">
-      <div class="badge">
-        <strong>4,7★</strong>
-        <span>Google avaliações</span>
-      </div>
-      <div class="badge">
-        <strong>5★</strong>
-        <span>Facebook</span>
-      </div>
-      <div class="badge">
-        <strong>+1,9 mil</strong>
-        <span>seguidores no Instagram</span>
-      </div>
-      <div class="badge badge--status" id="storeStatus">
-        <strong id="storeStatusDot">●</strong>
-        <span id="storeStatusText">Verificando horário...</span>
-      </div>
+    <p class="hero__trigger">Consulte modelos e tamanhos, sem compromisso.</p>
+    <div class="hero__categories" aria-label="Moda para toda a família">
+      <span>Feminina</span><span>Masculina</span><span>Infantil</span>
     </div>
+    </div>
+    <figure class="hero__media">
+      <div class="store-status" id="storeStatus" role="status">
+        <span class="store-status__dot" aria-hidden="true"></span>
+        <span id="storeStatusText">Seg–sex, 9h–18h · Sáb, 9h–14h</span>
+      </div>
+      <img src="assets/fachada-loja.jpg" alt="Fachada da Ana Modas, com letreiro dourado e entrada na Av. Pref. Antônio Souto, 230" width="825" height="1100" fetchpriority="high" class="hero__photo">
+      <figcaption class="hero__caption">
+        <div><strong>Vem conhecer a nossa loja</strong><span>Av. Pref. Antônio Souto, 230 · Cerquilho</span></div>
+        <a href="#contato" aria-label="Ver endereço e horários da loja"><span aria-hidden="true">↗</span></a>
+      </figcaption>
+    </figure>
   </div>
 </section>
 
@@ -85,30 +85,25 @@
 <section class="sobre" id="sobre">
   <div class="container sobre__inner">
     <div class="sobre__text">
-      <span class="section-tag">Sobre a loja</span>
-      <h2>Moda de verdade, para cada momento da sua família</h2>
+      <span class="section-tag">Prazer, Ana Modas</span>
+      <h2>Há 26 anos, fazendo parte da sua história.</h2>
+    </div>
+    <div class="sobre__details">
       <p>
-        Há 26 anos vestindo Cerquilho com carinho e atenção, a Ana Modas reúne o melhor
-        das grandes marcas infantis, femininas e masculinas em um só lugar. Aqui você
-        encontra variedade, preço justo e um atendimento que faz toda a diferença.
+        A gente acredita que escolher uma roupa fica melhor com um atendimento próximo.
+        Na Ana Modas, você encontra marcas infantis, femininas e masculinas em um só lugar,
+        com variedade e atenção para cada pessoa da família.
       </p>
       <ul class="info-list">
         <li>
-          <strong>Endereço</strong>
-          <span>Av. Pref. Antônio Souto, 230 - Recanto do Sol, Cerquilho - SP</span>
+          <strong>Pertinho de você</strong>
+          <a href="#contato">Recanto do Sol, Cerquilho · Ver localização <span aria-hidden="true">↗</span></a>
         </li>
         <li>
-          <strong>Horário</strong>
-          <span>Seg a Sex: 9h às 18h · Sáb: 9h às 14h</span>
-        </li>
-        <li>
-          <strong>Telefone / WhatsApp</strong>
-          <span>(15) 3384-5087</span>
+          <strong>Novidades da loja</strong>
+          <a href="https://www.instagram.com/anamodascerquilho/" target="_blank" rel="noopener">Acompanhe no Instagram <span aria-hidden="true">↗</span></a>
         </li>
       </ul>
-    </div>
-    <div class="sobre__media">
-      <img src="assets/fachada-loja.jpg" alt="Fachada da loja Ana Modas, Av. Pref. Antônio Souto 230, Cerquilho - SP" class="sobre__frame">
     </div>
   </div>
 </section>
@@ -116,8 +111,8 @@
 <!-- MARCAS -->
 <section class="marcas" id="marcas">
   <div class="container">
-    <span class="section-tag section-tag--center">Marcas que trabalhamos</span>
-    <h2 class="section-title">As grifes que você ama, tudo em um só lugar</h2>
+    <h2 class="section-title">Suas marcas favoritas, bem aqui.</h2>
+    <p class="section-intro">Para os pequenos, para você e para todos os dias.</p>
 
     <div class="marcas__grid">
       <div class="marca-card">Malwee</div>
@@ -135,34 +130,40 @@
 <!-- UNIFORMES TEASER -->
 <section class="uniformes-teaser">
   <div class="container uniformes-teaser__inner">
-    <div>
-      <span class="section-tag">Também trabalhamos com</span>
-      <h2>Uniformes escolares</h2>
-      <p>Confira o catálogo com os modelos que temos disponíveis para as escolas de Cerquilho.</p>
+    <div class="uniformes-teaser__copy">
+      <span class="section-tag">Uniformes escolares · SESI</span>
+      <h2>Tudo pronto para<br>o próximo dia de aula.</h2>
+      <p>Camisetas, calças e agasalhos do infantil ao adulto. Confira modelos e preços e consulte o tamanho pelo WhatsApp.</p>
+      <a href="uniformes.html" class="btn btn--light">Ver catálogo de uniformes <span aria-hidden="true">↗</span></a>
     </div>
-    <a href="uniformes.html" class="btn btn--ghost">Ver catálogo de uniformes</a>
+    <div class="uniformes-teaser__photos">
+      <img src="assets/uniformes/camiseta-manga-curta.jpg" alt="Camiseta manga curta SESI" width="700" height="700" loading="lazy" decoding="async">
+      <img src="assets/uniformes/jaqueta.jpg" alt="Jaqueta SESI" width="700" height="933" loading="lazy" decoding="async">
+    </div>
   </div>
 </section>
 
 <!-- DEPOIMENTOS -->
 <section class="depoimentos" id="depoimentos">
   <div class="container">
-    <span class="section-tag section-tag--center">Depoimentos</span>
-    <h2 class="section-title">Quem compra na Ana Modas, recomenda</h2>
+    <div class="depoimentos__heading">
+      <h2 class="section-title">O carinho de quem<br>já passou por aqui.</h2>
+      <p class="review-rating"><strong>4,7 <span aria-hidden="true">★</span></strong><span>Avaliação no Google</span></p>
+    </div>
 
     <div class="depoimentos__grid">
       <blockquote class="depoimento-card">
-        <div class="stars">★★★★★</div>
+        <div class="stars" role="img" aria-label="5 de 5 estrelas">★★★★★</div>
         <p>"Adoro fazer compras nessa loja, diversas opções de marcas e preços."</p>
         <cite>Cliente Google</cite>
       </blockquote>
       <blockquote class="depoimento-card">
-        <div class="stars">★★★★★</div>
+        <div class="stars" role="img" aria-label="5 de 5 estrelas">★★★★★</div>
         <p>"Atendimento nota mil, preço justo, qualidade e muita variedade!!!"</p>
         <cite>Cliente Google</cite>
       </blockquote>
       <blockquote class="depoimento-card">
-        <div class="stars">★★★★★</div>
+        <div class="stars" role="img" aria-label="5 de 5 estrelas">★★★★★</div>
         <p>"Excelente loja, ótimos produtos e ótimos preços."</p>
         <cite>Cliente Google</cite>
       </blockquote>
@@ -175,14 +176,13 @@
   <div class="container contato__inner">
     <div class="contato__text">
       <span class="section-tag">Venha nos visitar</span>
-      <h2>Estamos te esperando</h2>
+      <h2>Vem visitar<br>a gente.</h2>
       <p>Fica fácil pedir pelo WhatsApp ou vir conferir tudo pessoalmente na loja.</p>
 
       <ul class="contato__list">
-        <li>📍 Av. Pref. Antônio Souto, 230 - Recanto do Sol, Cerquilho - SP, 18520-000</li>
-        <li>⏰ Seg a Sex: 9h às 18h · Sáb: 9h às 14h <strong id="storeStatusInline"></strong></li>
-        <li>📞 (15) 3384-5087</li>
-        <li>📷 <a href="https://www.instagram.com/anamodascerquilho/" target="_blank" rel="noopener">@anamodascerquilho</a></li>
+        <li><strong>Endereço</strong><span>Av. Pref. Antônio Souto, 230<br>Recanto do Sol · Cerquilho, SP · 18520-000</span></li>
+        <li><strong>Horários</strong><span>Segunda a sexta: 9h às 18h<br>Sábado: 9h às 14h · Domingo: fechada</span><span class="contato__status" id="storeStatusInline"></span><small>Em feriados, confirme o horário pelo WhatsApp.</small></li>
+        <li><strong>Fale com a gente</strong><a href="tel:+551533845087">(15) 3384-5087</a><a href="https://www.instagram.com/anamodascerquilho/" target="_blank" rel="noopener">@anamodascerquilho <span aria-hidden="true">↗</span></a></li>
       </ul>
 
       <div class="contato__actions">
@@ -194,18 +194,21 @@
     <div class="contato__map">
       <iframe
         title="Localização Ana Modas"
-        src="https://www.google.com/maps?q=Av.+Pref.+Ant%C3%B4nio+Souto,+230,+Cerquilho+-+SP,+18520-000&output=embed"
-        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        src="https://www.google.com/maps?q=Av.+Pref.+Ant%C3%B4nio+Souto,+230,+Cerquilho+-+SP,+18520-000&amp;output=embed&amp;hl=pt-BR"
+        width="600" height="420" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade">
       </iframe>
+      <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=Av.+Pref.+Ant%C3%B4nio+Souto,+230,+Cerquilho+-+SP,+18520-000" target="_blank" rel="noopener">Abrir rota no Google Maps <span aria-hidden="true">↗</span></a>
     </div>
   </div>
 </section>
+
+</main>
 
 <!-- FOOTER -->
 <footer class="footer">
   <div class="container footer__inner">
     <a href="#top" class="logo logo--footer">
-      <img src="assets/logo.png" alt="Ana Modas" class="logo__img logo__img--footer">
+      <img src="assets/logo.png" alt="Ana Modas" class="logo__img logo__img--footer" width="2400" height="871">
     </a>
     <p>Av. Pref. Antônio Souto, 230 - Cerquilho - SP · (15) 3384-5087</p>
     <div class="footer__socials">
@@ -217,9 +220,9 @@
 </footer>
 
 <a href="https://wa.me/551533845087?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais." class="whatsapp-float" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
-  <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M12.04 3.9a8.9 8.9 0 0 0-7.5 13.7L3.5 21l3.5-1a8.9 8.9 0 1 0 5-16.1Zm5.2 12.8c-.2.6-1.3 1.2-1.8 1.3-.5.1-1 .1-1.7-.1-.4-.1-1-.3-1.6-.6-2.9-1.3-4.8-4.2-4.9-4.4-.1-.2-1.2-1.6-1.2-3s.7-2.1 1-2.4c.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .6.5.2.6.8 2 .9 2.1.1.2.1.4 0 .6-.1.2-.2.4-.4.6-.2.2-.4.5-.5.6-.2.2-.4.4-.2.8.2.4.9 1.5 1.9 2.4 1.3 1.2 2.4 1.5 2.8 1.7.4.2.6.2.8-.1.2-.2.8-1 1.1-1.3.3-.3.5-.2.8-.1.3.1 2 1 2.4 1.1.4.2.6.3.7.4.1.3.1.9-.1 1.5Z"/></svg>
+  <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M12.04 3.9a8.9 8.9 0 0 0-7.5 13.7L3.5 21l3.5-1a8.9 8.9 0 1 0 5-16.1Zm5.2 12.8c-.2.6-1.3 1.2-1.8 1.3-.5.1-1 .1-1.7-.1-.4-.1-1-.3-1.6-.6-2.9-1.3-4.8-4.2-4.9-4.4-.1-.2-1.2-1.6-1.2-3s.7-2.1 1-2.4c.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .6.5.2.6.8 2 .9 2.1.1.2.1.4 0 .6-.1.2-.2.4-.4.6-.2.2-.4.5-.5.6-.2.2-.4.4-.2.8.2.4.9 1.5 1.9 2.4 1.3 1.2 2.4 1.5 2.8 1.7.4.2.6.2.8-.1.2-.2.8-1 1.1-1.3.3-.3.5-.2.8-.1.3.1 2 1 2.4 1.1.4.2.6.3.7.4.1.3.1.9-.1 1.5Z"/></svg>
 </a>
 
-<script src="js/script.js?v=2"></script>
+<script src="js/script.js?v=3"></script>
 </body>
 </html>

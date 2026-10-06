@@ -10,53 +10,55 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="css/style.css?v=5">
+<link rel="stylesheet" href="css/style.css?v=6">
 </head>
 <body>
+<a href="#conteudo" class="skip-link">Pular para o conteúdo</a>
 
 <!-- HEADER -->
 <header class="header" id="header">
   <div class="container header__inner">
     <a href="index.html" class="logo">
-      <img src="assets/logo.png" alt="Ana Modas" class="logo__img">
+      <img src="assets/logo.png" alt="Ana Modas" class="logo__img" width="2400" height="871">
     </a>
 
-    <nav class="nav" id="nav">
+    <nav class="nav" id="nav" aria-label="Navegação principal">
       <a href="index.html#sobre">Sobre</a>
       <a href="index.html#marcas">Marcas</a>
-      <a href="uniformes.html" class="nav--active">Uniformes</a>
+      <a href="uniformes.html" class="nav--active" aria-current="page">Uniformes</a>
       <a href="index.html#depoimentos">Depoimentos</a>
       <a href="index.html#contato">Contato</a>
     </nav>
 
-    <a href="https://wa.me/551533845087?text=Ol%C3%A1!%20Vi%20o%20cat%C3%A1logo%20de%20uniformes%20no%20site%20e%20gostaria%20de%20saber%20mais." class="btn btn--whatsapp header__cta" target="_blank" rel="noopener">
-      <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12.04 3.9a8.9 8.9 0 0 0-7.5 13.7L3.5 21l3.5-1a8.9 8.9 0 1 0 5-16.1Zm5.2 12.8c-.2.6-1.3 1.2-1.8 1.3-.5.1-1 .1-1.7-.1-.4-.1-1-.3-1.6-.6-2.9-1.3-4.8-4.2-4.9-4.4-.1-.2-1.2-1.6-1.2-3s.7-2.1 1-2.4c.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .6.5.2.6.8 2 .9 2.1.1.2.1.4 0 .6-.1.2-.2.4-.4.6-.2.2-.4.5-.5.6-.2.2-.4.4-.2.8.2.4.9 1.5 1.9 2.4 1.3 1.2 2.4 1.5 2.8 1.7.4.2.6.2.8-.1.2-.2.8-1 1.1-1.3.3-.3.5-.2.8-.1.3.1 2 1 2.4 1.1.4.2.6.3.7.4.1.3.1.9-.1 1.5Z"/></svg>
+    <a href="https://wa.me/551533845087?text=Ol%C3%A1!%20Vi%20o%20cat%C3%A1logo%20de%20uniformes%20no%20site%20e%20gostaria%20de%20saber%20mais." class="btn btn--whatsapp header__cta" aria-label="Falar no WhatsApp" target="_blank" rel="noopener">
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12.04 3.9a8.9 8.9 0 0 0-7.5 13.7L3.5 21l3.5-1a8.9 8.9 0 1 0 5-16.1Zm5.2 12.8c-.2.6-1.3 1.2-1.8 1.3-.5.1-1 .1-1.7-.1-.4-.1-1-.3-1.6-.6-2.9-1.3-4.8-4.2-4.9-4.4-.1-.2-1.2-1.6-1.2-3s.7-2.1 1-2.4c.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .6.5.2.6.8 2 .9 2.1.1.2.1.4 0 .6-.1.2-.2.4-.4.6-.2.2-.4.5-.5.6-.2.2-.4.4-.2.8.2.4.9 1.5 1.9 2.4 1.3 1.2 2.4 1.5 2.8 1.7.4.2.6.2.8-.1.2-.2.8-1 1.1-1.3.3-.3.5-.2.8-.1.3.1 2 1 2.4 1.1.4.2.6.3.7.4.1.3.1.9-.1 1.5Z"/></svg>
       <span>WhatsApp</span>
     </a>
 
-    <button class="nav-toggle" id="navToggle" aria-label="Abrir menu">
+    <button class="nav-toggle" id="navToggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav" hidden>
       <span></span><span></span><span></span>
     </button>
   </div>
 </header>
 
+<main id="conteudo" tabindex="-1">
 <!-- HERO -->
 <section class="hero hero--catalogo" id="top">
   <div class="container hero__inner">
     <p class="hero__eyebrow">Cerquilho - SP</p>
     <h1 class="hero__title">Catálogo de<br><em>uniformes escolares</em></h1>
     <p class="hero__text">
-      Uniforme oficial SESI — infantil, juvenil e adulto. Por enquanto os pedidos
-      são feitos direto pelo WhatsApp: escolha o modelo e o tamanho e chama a gente.
+      Uniformes SESI do infantil ao adulto. Confira os preços por tamanho
+      e consulte a disponibilidade do modelo pelo WhatsApp.
     </p>
     <div class="hero__actions">
       <a href="https://wa.me/551533845087?text=Ol%C3%A1!%20Vi%20o%20cat%C3%A1logo%20de%20uniformes%20no%20site%20e%20gostaria%20de%20saber%20mais." class="btn btn--whatsapp" target="_blank" rel="noopener">Falar no WhatsApp</a>
       <a href="index.html" class="btn btn--ghost">Voltar para a loja</a>
     </div>
     <div class="catalogo__perks">
-      <span>✅ Pedidos pelo WhatsApp</span>
-      <span>💳 Aceitamos Pix</span>
-      <span>🧾 Até 4x sem juros</span>
+      <span>Pedidos pelo WhatsApp</span>
+      <span>Aceitamos Pix</span>
+      <span>Até 4x sem juros</span>
     </div>
   </div>
 </section>
@@ -70,7 +72,7 @@
     <h3 class="catalogo__group-title">Camisetas</h3>
     <div class="catalogo__grid">
       <article class="uniforme-card">
-        <img class="uniforme-card__img" src="assets/uniformes/camiseta-manga-curta.jpg" alt="Camiseta manga curta do uniforme SESI">
+        <img class="uniforme-card__img" src="assets/uniformes/camiseta-manga-curta.jpg" alt="Camiseta manga curta do uniforme SESI" width="700" height="700" loading="lazy" decoding="async">
         <div class="uniforme-card__body">
           <h3>Camiseta manga curta</h3>
           <ul class="uniforme-card__prices">
@@ -84,7 +86,7 @@
       </article>
 
       <article class="uniforme-card">
-        <img class="uniforme-card__img" src="assets/uniformes/regata.jpg" alt="Regata do uniforme SESI">
+        <img class="uniforme-card__img" src="assets/uniformes/regata.jpg" alt="Regata do uniforme SESI" width="700" height="700" loading="lazy" decoding="async">
         <div class="uniforme-card__body">
           <h3>Regata</h3>
           <ul class="uniforme-card__prices">
@@ -98,7 +100,7 @@
       </article>
 
       <article class="uniforme-card">
-        <img class="uniforme-card__img" src="assets/uniformes/camiseta-manga-longa.jpg" alt="Camiseta manga longa do uniforme SESI">
+        <img class="uniforme-card__img" src="assets/uniformes/camiseta-manga-longa.jpg" alt="Camiseta manga longa do uniforme SESI" width="700" height="700" loading="lazy" decoding="async">
         <div class="uniforme-card__body">
           <h3>Camiseta manga longa</h3>
           <ul class="uniforme-card__prices">
@@ -115,7 +117,7 @@
     <h3 class="catalogo__group-title">Bermudas e calças</h3>
     <div class="catalogo__grid">
       <article class="uniforme-card">
-        <img class="uniforme-card__img" src="assets/uniformes/bermuda-masculina.jpg" alt="Bermuda masculina do uniforme SESI">
+        <img class="uniforme-card__img" src="assets/uniformes/bermuda-masculina.jpg" alt="Bermuda masculina do uniforme SESI" width="700" height="700" loading="lazy" decoding="async">
         <div class="uniforme-card__body">
           <h3>Bermuda masculina</h3>
           <ul class="uniforme-card__prices">
@@ -130,7 +132,7 @@
       </article>
 
       <article class="uniforme-card">
-        <img class="uniforme-card__img" src="assets/uniformes/calca-masculina.jpg" alt="Calça masculina do uniforme SESI">
+        <img class="uniforme-card__img" src="assets/uniformes/calca-masculina.jpg" alt="Calça masculina do uniforme SESI" width="700" height="901" loading="lazy" decoding="async">
         <div class="uniforme-card__body">
           <h3>Calça masculina</h3>
           <p class="uniforme-card__variant">Helanca — 4 a 8: R$ 45 · 10 a 12: R$ 48 · 14 a 16: R$ 50 · P/M/G: R$ 55 · GG: R$ 60</p>
@@ -143,7 +145,7 @@
     <h3 class="catalogo__group-title">Femininos</h3>
     <div class="catalogo__grid">
       <article class="uniforme-card">
-        <img class="uniforme-card__img" src="assets/uniformes/shorts-saia.jpg" alt="Shorts saia do uniforme SESI">
+        <img class="uniforme-card__img" src="assets/uniformes/shorts-saia.jpg" alt="Shorts saia do uniforme SESI" width="700" height="933" loading="lazy" decoding="async">
         <div class="uniforme-card__body">
           <h3>Shorts saia</h3>
           <ul class="uniforme-card__prices">
@@ -158,7 +160,7 @@
       </article>
 
       <article class="uniforme-card">
-        <img class="uniforme-card__img" src="assets/uniformes/legging-flanelada.jpg" alt="Legging flanelada do uniforme SESI">
+        <img class="uniforme-card__img" src="assets/uniformes/legging-flanelada.jpg" alt="Legging flanelada do uniforme SESI" width="700" height="1038" loading="lazy" decoding="async">
         <div class="uniforme-card__body">
           <h3>Legging flanelada</h3>
           <ul class="uniforme-card__prices">
@@ -173,7 +175,7 @@
       </article>
 
       <article class="uniforme-card">
-        <img class="uniforme-card__img" src="assets/uniformes/shorts-ciclista.png" alt="Shorts ciclista do uniforme SESI">
+        <img class="uniforme-card__img" src="assets/uniformes/shorts-ciclista.png" alt="Shorts ciclista do uniforme SESI" width="700" height="733" loading="lazy" decoding="async">
         <div class="uniforme-card__body">
           <h3>Shorts ciclista</h3>
           <ul class="uniforme-card__prices">
@@ -206,7 +208,7 @@
       </article>
 
       <article class="uniforme-card">
-        <img class="uniforme-card__img" src="assets/uniformes/blusa-moletom.jpg" alt="Blusa fechada em moletom do uniforme SESI">
+        <img class="uniforme-card__img" src="assets/uniformes/blusa-moletom.jpg" alt="Blusa fechada em moletom do uniforme SESI" width="700" height="933" loading="lazy" decoding="async">
         <div class="uniforme-card__body">
           <h3>Blusa fechada (moletom)</h3>
           <ul class="uniforme-card__prices">
@@ -221,7 +223,7 @@
       </article>
 
       <article class="uniforme-card">
-        <img class="uniforme-card__img" src="assets/uniformes/jaqueta.jpg" alt="Jaqueta do uniforme SESI">
+        <img class="uniforme-card__img" src="assets/uniformes/jaqueta.jpg" alt="Jaqueta do uniforme SESI" width="700" height="933" loading="lazy" decoding="async">
         <div class="uniforme-card__body">
           <h3>Jaqueta</h3>
           <ul class="uniforme-card__prices">
@@ -236,15 +238,17 @@
       </article>
     </div>
 
-    <p class="catalogo__note">Não encontrou a escola do seu filho ou o modelo que precisa? Chama no WhatsApp que a gente confirma disponibilidade.</p>
+    <p class="catalogo__note">Não encontrou a escola do seu filho ou o modelo que precisa? <a href="https://wa.me/551533845087?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20a%20disponibilidade%20de%20um%20uniforme." target="_blank" rel="noopener">Consulte a disponibilidade pelo WhatsApp.</a></p>
   </div>
 </section>
+
+</main>
 
 <!-- FOOTER -->
 <footer class="footer">
   <div class="container footer__inner">
     <a href="index.html" class="logo logo--footer">
-      <img src="assets/logo.png" alt="Ana Modas" class="logo__img logo__img--footer">
+      <img src="assets/logo.png" alt="Ana Modas" class="logo__img logo__img--footer" width="2400" height="871">
     </a>
     <p>Av. Pref. Antônio Souto, 230 - Cerquilho - SP · (15) 3384-5087</p>
     <div class="footer__socials">
@@ -256,9 +260,9 @@
 </footer>
 
 <a href="https://wa.me/551533845087?text=Ol%C3%A1!%20Vi%20o%20cat%C3%A1logo%20de%20uniformes%20no%20site%20e%20gostaria%20de%20saber%20mais." class="whatsapp-float" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
-  <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M12.04 3.9a8.9 8.9 0 0 0-7.5 13.7L3.5 21l3.5-1a8.9 8.9 0 1 0 5-16.1Zm5.2 12.8c-.2.6-1.3 1.2-1.8 1.3-.5.1-1 .1-1.7-.1-.4-.1-1-.3-1.6-.6-2.9-1.3-4.8-4.2-4.9-4.4-.1-.2-1.2-1.6-1.2-3s.7-2.1 1-2.4c.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .6.5.2.6.8 2 .9 2.1.1.2.1.4 0 .6-.1.2-.2.4-.4.6-.2.2-.4.5-.5.6-.2.2-.4.4-.2.8.2.4.9 1.5 1.9 2.4 1.3 1.2 2.4 1.5 2.8 1.7.4.2.6.2.8-.1.2-.2.8-1 1.1-1.3.3-.3.5-.2.8-.1.3.1 2 1 2.4 1.1.4.2.6.3.7.4.1.3.1.9-.1 1.5Z"/></svg>
+  <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M12.04 3.9a8.9 8.9 0 0 0-7.5 13.7L3.5 21l3.5-1a8.9 8.9 0 1 0 5-16.1Zm5.2 12.8c-.2.6-1.3 1.2-1.8 1.3-.5.1-1 .1-1.7-.1-.4-.1-1-.3-1.6-.6-2.9-1.3-4.8-4.2-4.9-4.4-.1-.2-1.2-1.6-1.2-3s.7-2.1 1-2.4c.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .6.5.2.6.8 2 .9 2.1.1.2.1.4 0 .6-.1.2-.2.4-.4.6-.2.2-.4.5-.5.6-.2.2-.4.4-.2.8.2.4.9 1.5 1.9 2.4 1.3 1.2 2.4 1.5 2.8 1.7.4.2.6.2.8-.1.2-.2.8-1 1.1-1.3.3-.3.5-.2.8-.1.3.1 2 1 2.4 1.1.4.2.6.3.7.4.1.3.1.9-.1 1.5Z"/></svg>
 </a>
 
-<script src="js/script.js?v=2"></script>
+<script src="js/script.js?v=3"></script>
 </body>
 </html>
